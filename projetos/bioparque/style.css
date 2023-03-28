@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    background-color:rgb(250, 77, 14);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    width: calc(100%-40px);
+}
+
+main{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 20px 0;
+}
+
+section h2{
+    padding: 20px;
+}
+
+#sobre{
+    height: 300px;
+    overflow: auto;
+}
+
+#sobre p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.imagens{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.imagens img{
+    width: 350px;
+    padding: 0px 2px;
+}
+

@@ -1,0 +1,387 @@
+/*ESTILIZAÇÃO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limita-largura{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteudo-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.conteudo-container h2, .conteudo-container h3{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+  }
+
+/*FIM DA ESTILIZAÇÃO GERAL*/
+
+/*INÍCIO DA ESTILIZAÇÃO DO TOPO*/
+.topo{
+    background-color:#00CAD1 ;
+}
+
+.conteudo-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-topo{
+    margin-left: 15px;
+    padding: 10px;
+    font-weight:600;
+}
+
+.links-topo a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.links-topo a:hover{
+    color: black;
+}
+/* FIM DA ESTILIZAÇÃO DO TOPO*/
+
+/*INÍCIO CONTEÚDO PRINCIPAL*/
+
+#sobre,
+#especialidades,
+#contato {
+  padding: 40px 40px;
+}
+
+/*CONTAINER COM IMAGEM DA CLÍNICA*/
+.imagem-clinica{
+    background-image: url(/assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.texto-imagem-clinica{
+    margin:0;
+}
+
+.texto-imagem-clinica h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 38px;
+    margin:0;
+}
+/* FIM CONTAINER IMAGEM*/
+
+/*INÍCIO CONTAINER SOBRE*/
+.texto-sobre{
+    text-align: center;
+}
+
+.lista-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-sobre ul{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.lista-sobre h3{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.lista-sobre img{
+    padding: 5px;
+    height: 250px;
+}
+
+/*FIM CONTAINER SOBRE*/
+
+/* INÍCIO CONTAINER ESPECIALIDADES*/
+.imagens-especialidades{
+    display: flex;
+}
+
+.imagem-especialidade{
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    width: calc( 100%/ 3 );
+    margin: 20px;
+}
+
+.imagem-especialidade img{
+    width: 100%;
+}
+
+.imagem-especialidade figcaption{
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.box-link-horarios{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+
+.link-horarios{
+    text-decoration: none;
+    padding: 0 auto;
+    background-color:#00C9CD ;
+    color: #fff;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.link-horarios:hover{
+    color: #0000008c;
+}
+
+
+/* FIM CONTAINER ESPECIALIDADES*/
+
+/*INÍCIO CONTAINER CONTATO*/
+.contato p{
+    padding: 10px;
+}
+
+.contato p span{
+    font-weight: bold;
+}
+
+/*FIM CONTAINER CONTATO*/
+
+/*IFRAME*/
+
+/*FIM IFRAME*/
+.box-iframe{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+}
+/*INÍCIO CONTEÚDO RODAPÉ*/
+.rodape{
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+    line-height: 45px;
+}
+
+.conteudo-rodape{
+   text-align: center;
+}
+/*FIM CONTEÚDO RODAPÉ*/
+
+@media (max-width:300px){
+    *{
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+}
+
+/*DESIGN PARA UM TAMANHO MÁXIMO DE 425PX*/
+@media (max-width:425px){
+    /*REGRAS GERAIS*/
+    body{
+        font-size: 1.3em;
+    }
+
+    #sobre,
+    #especialidades,
+    #contato {
+        padding: 20px 20px;
+    }
+    /*FIM DAS REGRAS GERAIS*/
+
+    /*INICIO CONTEUDO TOPO*/
+    .conteudo-topo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .conteudo-topo nav{
+        width: 100%;
+        border-top: 1px solid white;
+        display: flex;
+        justify-content: center;
+    }
+    /*FIM CONTEUDO TOPO*/
+
+    /*INICIO IMAGEM CLÍNICA - 425px*/
+    .imagem-clinica{
+        background-image: url(/assets/recepcao.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .texto-imagem-clinica{
+        margin:0;
+    }
+    
+    .texto-imagem-clinica h1{
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #fff;
+        font-size: 28px;
+        margin:0;
+    }
+     /*FIM IMAGEM CLÍNICA - 425px*/
+
+     /*SOBRE*/
+     .lista-sobre img{
+        display: none;
+    }
+     /*FIM SOBRE*/
+
+    /* INÍCIO CONTAINER ESPECIALIDADES*/
+    .imagens-especialidades{
+        display: block;
+    }
+
+    .imagem-especialidade{
+        border-radius: 3px;
+        box-shadow:none;
+        width: 95%;
+        margin:15px auto ;
+    }
+
+    .imagem-especialidade img{
+        width: 100%;
+    }
+
+    /*FIM CONTEUDO ESPECIALIDADES*/
+  
+
+}
+/* FIM DO DESIGN PARA TAMANHO MÁXIMO DE 425PX*/
+
+/*INÍCIO CONTEÚDO DE NO MÁXIMO 768PX*/
+@media (min-width:426px) and (max-width:768px){
+    /*GERAL*/
+    body{
+        font-size: 1em;
+    }
+    /*FIM - GERAL*/
+
+    /*INICIO IMAGEM CLÍNICA - 768px*/
+    .imagem-clinica{
+        height: 300px;
+    }
+    
+    .texto-imagem-clinica{
+        margin:0;
+    }
+    
+    .texto-imagem-clinica h1{
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #fff;
+        font-size: 28px;
+        margin:0;
+    }
+     /*FIM IMAGEM CLÍNICA - 768px*/
+
+     /*INÍCIO ESPECIALIDADES*/
+     .imagens-especialidades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .imagem-especialidade{
+        border-radius: 3px;
+        box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+        width: calc( 80%/ 2 );
+        margin: 20px;
+    }
+    
+    .imagem-especialidade img{
+        width: 100%;
+    }
+    
+     .imagem-especialidade figcaption{
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 10px;
+    }
+    /*FIM ESPECIALIDADES*/
+
+    /*INÍCIO CONTEÚDO LISTA:MAX 768PX*/
+    #sobre{
+        margin: 20px;
+    }
+
+    .lista-sobre h3,
+    .lista-sobre p{
+      text-align: center;
+      padding: 15px 0;
+    }
+    /*FIM CONTEÚDO LISTA:MAX 768PX*/
+}
+
+/*CONFIGURAÇÃO PARA TELAS DE ATÉ 1024px*/
+
+@media (min-width:768px) and (max-width:1024px){
+    .imagem-clinica{
+        height: 400px;
+}
+}
+/*FIM DA CONFIGURAÇÃO PARA TELAS DE ATÉ 1024px*/
+
+@media (min-width:1024px){
+    .imagem-clinica{
+        height: 500px;
+    }
+
+    .imagem-especialidade figcaption{
+        text-align: center;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 10px;
+    }
+}

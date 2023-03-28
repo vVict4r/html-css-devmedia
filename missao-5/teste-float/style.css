@@ -1,0 +1,27 @@
+.secao-1{
+    float: left;
+    width: 34%;
+    margin: 1% 4%;
+    padding: 4%;
+}
+
+.secao-2{
+    float: right;
+    width: 34%;
+    margin:1% 4%;
+    padding: 4%;
+}
+
+.secao-3{
+    width: 50%;
+    text-align: center;
+    margin: 1% auto;
+}
+
+h1{
+    font-family:cursive;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

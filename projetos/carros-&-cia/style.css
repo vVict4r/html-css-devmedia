@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: black;
+    color: #d59600;
+    text-align: center;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+header h1{
+    padding-bottom: 10px;
+}
+
+header a{
+    color: #d59600;
+    margin: 0 1.2%;
+}
+
+/* Banner */
+
+.banner{
+    width:100%;
+    max-width: 1600px;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* Todas seções*/
+
+.secao{
+    width: 100%;
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;   
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.secao h2{
+    padding: 10px;
+}
+
+.secao img{
+    width: 60%;
+    padding: 10px;
+}
+
+.secao span{
+    color: #d59600;
+    font-weight: bold;
+}
+
+.secao a{
+    color: #d59600;
+}
+
+/* Justificar parágrafos específicos */
+
+.paragrafo{
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+/* Editando a última seção*/
+
+#onde-estamos p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+iframe{
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+}
+

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin-bottom:5% ;
+    padding: 5%;
+}
+
+header, header section{
+    background-color: rgb(146, 175, 166);
+    text-align: center;
+    padding-bottom: 2% ;
+}
+
+header img{
+    width: 150px;
+}
+
+header a{
+    color: black;
+    padding: 0% 1%;
+    font-size: 1.1em;
+}
+
+section{
+   margin: 0 auto;
+   padding: 3%;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 2%;
+   box-sizing: border-box;
+}
+
+#banner{
+    width: 100%;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+section img{
+    max-width:1200px;
+    width: 100%;
+}
+
+section p{
+    text-align: justify;
+}
+
+.introducao h2{
+    color: rgb(44, 39, 153);
+    font-size: 16px;
+    padding: 1% 0%;
+}
+
+.img-pq{
+    width: 100%;
+    max-width: 500px;
+    padding: 3%;
+}
+
+.limita-largura{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.div-azul{
+    text-align: center;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.div-azul p{
+    padding: 2%;
+}
+
+.div-azul ul{
+    display: inline-block;
+    padding: 2%;
+}
+
+iframe{
+    width: 100%;
+}
+
+.div-azul{
+    background-color:rgb(71, 82, 205) ;
+    color: white;
+}
+
+.div-azul a{
+    background-color: white;
+    color:rgb(71, 82, 205);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+iframe{
+    padding: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    height:450px;
+}
+
+.p-destaque{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 35px;
+}
+
+.p-destaque span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.escritorios li{
+        margin: 15px;
+        list-style: none;
+}

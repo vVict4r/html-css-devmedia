@@ -1,0 +1,125 @@
+/*Gerais*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.limita-largura{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding: 20px 0 0 20px;
+}
+
+footer{
+    color:#D92121;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    margin: 50px 0;
+    padding: 20px;
+}
+/*Gerais*/
+
+/*Banner de início*/
+
+.inicio{
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    min-height: 500px;
+    padding: 0;
+}
+
+.container-titulo-inicio{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: #FFF;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: right;
+}
+
+.inicio p{
+    width: 100%;
+}
+
+/*Fim banner*/
+/*Início sobre*/
+.imagens-sobre{
+    display: flex;
+    width: calc(100%/3);
+}
+
+.imagens-sobre img{
+    width: 100%;
+    padding: 10px;
+}
+
+.frases-sobre{
+    display: block;
+    border-left: 3px solid rgb(5, 67, 40);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/*Fim sobre*/
+
+/*Contato*/
+.titulo-contato{
+    background-color: #D92121;
+    color: #FFF;
+    padding: 30px 0;
+}
+
+.titulo-contato span{
+    display: block;
+    width: 100%;
+    background-color: #791513;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+}
+/*Fim contato*/
+
+h3,p{
+    padding: 20px;
+} 
+
+fieldset{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.campo{
+    padding: 10px;
+}
+
+.campo input{
+    width: 100%;
+    margin-top: 5px;
+}
+
+button{
+    width: 100%;
+    background-color: #D92121;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #791513;
+}

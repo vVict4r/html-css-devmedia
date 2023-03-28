@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vagas</title>
+</head>
+<body>
+    <header>
+        <span>Vagas</span>
+    </header>
+    <main>
+        <h1>Formulário de vagas para programadores</h1>
+        <p>Preencha o formulário abaixo com suas informações.</p>
+
+        <div class="formulario">
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula7/">
+            <label>Nome</label>
+                <input type="text" name="nome" class="inputText" required>
+
+                <label>Data de nascimento</label>
+                <input type="date" name="data_nascimento" class="inputText" required>
+
+                <label>Email</label>
+                <input type="email" name="email" class="inputText">
+
+                <label>Estado:</label>
+                <select name="estado" class="select">
+                    <option value="">Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PB">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+                <label for="">Tecnologias:</label>
+                <select name="tecnologias[]" class="selectMultiple" multiple size="6">
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="HTML">HTML</option>
+                    <option value="Java">Java</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="XML">XML</option>
+                </select>
+
+                <button type="submit">Enviar formulário</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <span>Copyright 2022 - Vagas</span>
+    </footer>
+</body>
+</html>

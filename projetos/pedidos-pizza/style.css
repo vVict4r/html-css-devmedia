@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0 40px;
+    font-family: Montserrat,sans-serif;
+}
+
+h1{
+    color: red;
+    font-size: 26px;
+    text-align: center;
+}
+
+.combo{
+    position: relative;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    padding: 60px 50px;
+    border: 2px solid red;
+}
+
+.combo a{
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    background-color: red;
+    padding: 15px;
+    position: absolute;
+    bottom: -25px;
+    right: 5px;
+}
+
+.icone{
+    background-color: red;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    position: absolute;
+    padding: 20px;
+    top:-20px;
+    left:-20px;
+}
+
+h3{
+    padding-bottom: 10px;
+}

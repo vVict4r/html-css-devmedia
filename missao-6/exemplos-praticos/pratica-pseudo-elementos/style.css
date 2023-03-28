@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    background-color: rgb(50, 144, 144);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+section{
+  text-align: center;
+  padding: 10px 0;
+  line-height: 32px;
+}
+
+section::first-letter{
+    font-size: 28px;
+}
+
+section span{
+    display: block;
+    font-weight: bold ;
+}

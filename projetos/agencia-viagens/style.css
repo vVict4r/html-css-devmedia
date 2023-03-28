@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.margem-direita{
+    margin-right: 10px;
+}
+
+/* INÍCIO CABEÇALHO */
+    header{
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 40px;
+    }
+
+    .logo p{
+        color: #5D15D1;
+        font-size: 22px;
+    }
+/* FIM CABEÇALHO */
+
+/*INÍCIO FORMULÁRIO*/
+    .banner-praia{
+        background-image: url(assets/imagens/bahia.jpg);
+        background-size:cover;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario{
+        background-color: #fff;
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .titulo-formulario{
+        background-color: #5D15D1;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .titulo-formulario img{
+        width: 30px;
+        padding-right: 5px;
+    }
+
+    .formulario h2{
+        margin: 15px 0;
+    }
+
+    .conteudo-formulario{
+        padding: 20px;
+    }
+
+    .formulario input,.formulario select{
+        margin: 12px 0;
+        height: 30px;
+    }
+
+    .formulario input{
+        padding: 5px;
+    }
+    
+    .formulario .input-text{
+        width: 100%;
+    }
+
+    .dividir-form{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dividir-form div{
+        width: 49%;
+    }
+
+    .dividir-form div input,
+    .dividir-form select{
+        width: 100%;
+        display: block;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .flex input{
+        margin-right: 10px;
+    }
+
+    .formulario button{
+        width: 100%;
+        padding: 10px;
+        background-color: #5D15D1;
+        color: #fff;
+        border: none;
+        
+    }
+
+    .formulario button:hover{
+        background-color: #2b0469;
+        cursor: pointer;
+    }
+
+/*FIM FORMULÁRIO*/
+
+/*INÍCIO INFORMAÇÕES*/
+
+    .conteudo{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+    }
+
+    .imagens{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .imagens figure{
+        position: relative;
+    }
+
+    .imagem-grande figure figcaption,.imagem-destaque figcaption{
+        position: absolute;
+        bottom: 4px;
+        color: #fff;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.453) ;
+        width:100%;
+        padding: 2px;
+    }
+
+    .imagens-pequenas figure figcaption{
+        position: absolute;
+        bottom: 4px;
+        color: #fff;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.453) ;
+        width: 100%;
+        padding: 2px;
+    }
+
+    .imagem-grande{
+        width: 50%;
+    }
+
+    .imagem-grande img{
+        width: 100%;
+    }
+
+    .imagens-pequenas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .imagens-pequenas div{
+        width: 100%;
+    }
+
+    .espacamento-esquerda{
+        margin-left: 10px;
+    }
+
+    .imagens-pequenas figure{
+        width: calc(100%-10px);
+    }
+
+    .duas-imagens-destaque{
+        display: flex;
+        margin: 15px 0;
+    }
+
+    .imagem-destaque{  
+        width: 50%;
+        position: relative;
+    }
+
+    .imagem-destaque:first-child{
+        margin-right: 10px;
+    }
+
+    .imagem-destaque img{
+        width: 100%;
+    }
+
+
+/*FIM INFORMAÇÕES*/
+
+/*INÍCIO RODAPÉ*/
+    footer{
+        background-color: #5D15D1;
+        color: #fff;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .rodape h2{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .rodape p{
+        font-size: 12px;
+    }
+
+    .rodape img{
+        width: 20px;
+        margin-right: 5px;
+    }
+
+    .contato div,.redes-sociais div{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+/*FIM RODAPÉ*/
+
+/*MÁXIMO 700PX*/
+
+@media (max-width:700px)  {
+    /*INÍCIO INFORMAÇÕES*/
+    .imagens{
+        display: block;
+    }
+
+    .imagem-grande{
+        width: 100%;
+    }
+
+    .imagem-grande img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagens-pequenas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .espacamento-esquerda{
+        margin-left: 0;
+    }
+
+    .imagens-pequenas div{
+        width: 49%;
+    }
+
+    .imagens-pequenas figure{
+        padding-left:0px;
+        width: 100%;
+    }
+
+    .imagens-pequenas img{
+        width: 100%;
+        height: 150px;
+    }
+    /*FIM INFORMAÇÕES*/
+}
+
+@media (min-width:701px) {
+    /*INÍCIO INFORMAÇÕES*/
+        
+        .imagens img{
+            width: 100%;
+            object-fit: cover;
+        }
+    
+        .imagem-grande{
+            height: 100%;
+        }
+
+        .imagem-grande img{
+            width: 100%;
+            height: 335px;
+            padding-top: 5px;
+        }
+
+        .imagens-pequenas div{
+            width: 50%;
+        }
+
+        .imagens-pequenas img{
+            width: 100%;
+            height: 165.5px;
+            padding-top: 5px;
+        }
+        
+    /*FIM INFORMAÇÕES*/
+}
+
+@media (min-width:980px){
+    .rodape{
+        padding: 0;
+    }
+}

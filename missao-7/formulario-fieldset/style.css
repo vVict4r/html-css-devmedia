@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:#0F52A5 ;
+    color: #FFF;
+    padding: 20px;
+ 
+}
+
+footer{
+    width: 100%;
+    color: #0F52A5;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFF;
+}
+
+main{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 150px auto;
+}
+
+h1{
+    color: #0F52A5;
+}
+
+h1,p,fieldset,input,label{
+    margin: 20px 0;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+input,button{
+    width: 100%;
+    height: 30px;
+}
+
+button{
+    background-color:#0F52A5 ;
+    color: #FFF;
+    font-size: 18px;
+}

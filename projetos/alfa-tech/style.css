@@ -1,0 +1,236 @@
+/*INÍCIO CONFIGURAÇÕES GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.limita-largura{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+/*FIM CONFIGURAÇÕES GERAIS*/
+
+/*INÍCIO CABEÇALHO*/
+    header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .logo-cabecalho{
+        display: flex;
+        padding: 10px;
+    }
+
+    .logo-cabecalho img{
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .logo-cabecalho span{
+        color:#2F86D6 ;
+        font-weight: bold;
+    }
+
+    .menu{
+        padding: 10px;
+    }
+
+    .menu a{
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .menu a:hover{
+        color: #2F86D6;
+    }
+/*FIM CABEÇALHO*/
+
+/*INÍCIO SEÇÃO BANNER*/
+    .banner{
+        background-color: #2F86D6;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .conteudo-banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .conteudo-banner p,
+    .conteudo-banner h3{
+        padding: 5px;
+    }
+
+    .conteudo-banner h3{
+        font-size: 26px;
+    }
+/*FIM SEÇÃO BANNER*/
+
+/*ANÚNCIOS*/
+    .anuncio{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        align-items:center;
+        color: #fff;
+    }
+
+    .primeiro-anuncio{
+        background-color:#23303E;
+    }
+
+    .primeiro-anuncio .link-anuncio a{
+        background-color: #2F86D6;
+    }
+
+    .primeiro-anuncio .link-anuncio a:hover{
+        background-color:aqua;
+    }
+
+    .segundo-anuncio{
+        background-color:#2F86D6;
+    }
+
+    .segundo-anuncio .link-anuncio a{
+        background-color:#23303E;
+    }
+
+    .segundo-anuncio .link-anuncio a:hover{
+        background-color:#435b76;
+    }
+
+    .link-anuncio a{
+        text-decoration: none;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+        border-radius: 5px; 
+        font-weight: bold;  
+    }
+
+    .link-anuncio a img{
+        padding-right: 7px;
+        width: 28px;
+    }
+
+/*FIM ANÚNCIOS*/
+
+/*INÍCIO SEÇÃO INFORMAÇÕES*/
+    .informacoes{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 10px;
+        text-align: center;
+    }
+
+    .informacoes span{
+        color: #2F86D6;
+    }
+
+    .informacoes h2{
+        font-size: 22px;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .informacao{
+        width: calc(100%/3);
+        padding: 10px;
+    }
+
+    .informacao img{
+        width: 40%;
+    }
+/*FIM SEÇÃO INFORMAÇÕES*/
+
+/*INÍCIO SEÇÃO PLANOS*/
+    .planos{
+        background-color:#F0F3F7;
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+        overflow-x: auto;
+    }
+
+    .tabela-planos{
+        text-align: center;
+        width: 100%;
+        border: 1px solid #eff1f6;
+        background-color: #fff;
+        margin-top: 20px;
+        box-shadow: 3px 5px 15px 3px #2F86D6;
+    }
+
+    .tabela-planos th small{
+        color: rgb(153, 152, 151);
+    }
+
+    .tabela-planos th img{
+        height: 120px;
+    }
+
+    .tabela-planos th small,
+    .tabela-planos th img{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+
+    .tabela-planos td,
+    .tabela-planos th{
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .tabela-planos tr:nth-of-type(odd){
+        background-color:#F6F6F6;
+    }
+
+    
+/*FIM SEÇÃO PLANOS*/
+
+/*RODAPÉ*/
+    footer{
+        background-color:#FFFFFF;
+        text-align:center;
+        font-weight: bold;
+        line-height: 42px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .logo h2{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .logo p{
+        color: #2F86D6;
+    }
+
+    .logo img{
+        width:150px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+/*Final rodapé*/
